@@ -145,8 +145,19 @@
 %------------------------------------------------
 
 \begin{frame}
-\frametitle{Title}
-
+\frametitle{DNC emails}
+\begin{block}{About this network}
+	Directed network of \textbf{emails} in the 2016 Democratic National Committee email leak. The Democratic National Committee (DNC) is the formal governing body for the United States Democratic Party. A dump of emails of the DNC was leaked in 2016 by Wikileaks. 
+\end{block}
+\pause
+\begin{itemize}
+	\item \textbf{Nodes:} \textbf{People} in the dataset.
+	\pause
+	\item \textbf{Edges:} A directed edge in the dataset denotes that a person has sent an \textbf{email} to another person. Since an email can have any number of recipients, a single email is mapped to multiple edges in this dataset.
+	\pause
+	\item \textbf{Extra data:} Every edge has the \textbf{timestamp} indicating the time where the email was sent.
+\end{itemize}
+\textbf{Source:} \href{https://github.com/renepickhardt/dnc-email-crunching}{https://github.com/renepickhardt/dnc-email-crunching}
 
 \end{frame}
 
